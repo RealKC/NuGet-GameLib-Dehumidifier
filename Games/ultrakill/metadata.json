@@ -1,0 +1,28 @@
+{
+    "steam": {
+        "appId": 1229490,
+        "gameDistDepots": [
+            {
+                "depotId": 1229491,
+                "distributionName": "Windows",
+                "isDefault": true
+            }
+        ]
+    },
+    "processSettings": {
+        "excludeAssemblies": [
+            "Mono*.dll",
+            "netstandard.dll",
+            "System*.dll",
+            "mscorlib.dll"
+        ],
+        "assembliesToPublicise": [
+            "Assembly-CSharp.dll"
+        ],
+        "isIL2Cpp": false
+    },
+    "nuget": {
+        "name": "ULTRAKILL.GameLibs.Steam",
+        "description": "Stripped and publicised libraries for modding ULTRAKILL"
+    }
+}
